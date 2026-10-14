@@ -1,49 +1,87 @@
 # Oefening 1
 # Print de volgende zin "Hello World"
-
+naam = "Ibo"
 print("Hello World")
+print(f"Hallo mijn naam is {naam}")
 
 
 # Oefening 2
 # Verander de waarde van de onderstaande variabelen.
 # Print deze daarna 1 voor 1 uit
-
 naam = "ibo bolat"
 leeftijd = 18
 woonstad = "Utrecht"
+
+print(naam)
+print(leeftijd)
+print(woonstad)
 
 
 # Oefening 3
 # Gebruik nu bovenstaande variabelen om zinnen te bouwen
 # Bijvoorbeeld print("Hallo mijn naam is ", naam) of print(f"Mijn naam is {naam}")
-
+print(f"Mijn naam is {naam}")
+print(f"Ik ben {leeftijd} jaar oud")
+print(f"Ik woon in {woonstad}")
 
 
 # Oefening 4
 # Maak variabelen aan voor je favoriete game, hoe veel uur je deze hebt gespeeld en welk cijfer je dit spel zou geven
 # Print deze daarna in zinnen uit, bijvoorbeeld "Mijn favoriete game is Minecraft" "Ik heb deze game 150 uur gespeeld", "Ik geef deze game een 8.5"
+favoriete_game = "Valorant
+uren_gespeeld = 420
+cijfer = 9
 
+print(f"Mijn favoriete game is {favoriete_game}")
+print(f"Ik heb deze game {uren_gespeeld} uur gespeeld")
+print(f"Ik geef deze game een {cijfer}")
 
 
 # Oefening 5
 # Maak twee variabelen aan, number1 en number2
 # Bereken daarna de som (+), het verschil (-) en het product (*) uit van deze nummers.
 # Print daarna de uitkomsten uit
+number1 = 12
+number2 = 7
 
+som = number1 + number2
+verschil = number1 - number2
+product = number1 * number2
+
+print(f"Som: {som}")
+print(f"Verschil: {verschil}")
+print(f"Product: {product}")
 
 
 # Oefening 6
 # Maak een simpel game character met minimaal de volgende variabelen: name, health, level, damage
 # Print deze vervolgens uit
 # Zorg er daarna voor dat je character 20 damage neemt, print nu de nieuwe waarde van zijn health uit
+name = "Aria"
+health = 100
+level = 5
+damage = 25
 
+print(f"Name: {name}")
+print(f"Health: {health}")
+print(f"Level: {level}")
+print(f"Damage: {damage}")
+
+health -= 20
+print(f"Nieuwe health na schade: {health}")
 
 
 # Oefening 7
 # Ga verder met je character van de vorige oefening. Voeg nu een nieuw variabel "weapon" toe.
 # Geef het wapen een naam, verhoog de damage van je character en verhoog het level met 1
-# Print daarna de nieuwe waardes uit 
+# Print daarna de nieuwe waardes uit
+weapon = "Vuurzwaard"
+damage += 15
+level += 1
 
+print(f"Weapon: {weapon}")
+print(f"Nieuwe damage: {damage}")
+print(f"Nieuw level: {level}")
 
 
 # Oefening 8
@@ -52,3 +90,25 @@ woonstad = "Utrecht"
 # Print al deze informatie netjes uit
 # Verhoog daarna de score van het profiel met 250 en print de nieuwe waarde
 # Bonus! Voeg zelf 3 nieuwe variabelen toe
+name = "Ibo"
+age = 18
+favouriteGame = "Valorant"
+hoursPlayed = 420
+level = 24
+score = 1500
+rank = "Gold"
+favoriteWeapon = "Vandal"
+region = "EU"
+
+print(f"Naam: {name}")
+print(f"Leeftijd: {age}")
+print(f"Favoriete game: {favouriteGame}")
+print(f"Uren gespeeld: {hoursPlayed}")
+print(f"Level: {level}")
+print(f"Score: {score}")
+print(f"Rank: {rank}")
+print(f"Favoriete wapen: {favoriteWeapon}")
+print(f"Gebied: {region}")
+
+score += 250
+print(f"Nieuwe score: {score}")
